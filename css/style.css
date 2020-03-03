@@ -1,0 +1,38 @@
+/* Обнуление стилей */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Базовый макет */
+#head {
+    background-color: brown;
+    height: 200px; /* высота */
+}
+
+#sidebar {
+    background-color: green;
+    width: 200px;
+    float: left;
+}
+
+#content {
+    background-color: #20807b;
+    width: 590px;
+    float: right;
+    padding: 5px;
+}
+
+#footer {
+    background-color: #d9ff01;
+}
+
+.wrap {
+    width: 800px;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
