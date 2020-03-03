@@ -3,40 +3,39 @@ body {
     color: #000;
     font-family: Arial, sans-serif;
     font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 
+/* Разметка страницы */
 #header {
-    background: #F5DEB3;
     width: 100%;
-    height: 55px;
+    height: 90px;
 }
 
-#container {
-    background: #FFD700;
+.container {
     margin: auto auto;
-    text-align: center;
     width: 80%;
-    height: 400px;
 }
 
 #navigation {
-    background: #FE9798;
     width: 100%;
     height: 25px;
+    text-align: center;
 }
 
 #sidebar {
-    background: #40E0D0;
     float: left;
     width: 20%;
     height: 280px;
 }
 
 #content {
-    background: #DCDCDC;
     float: right;
-    width: 80%;
-    height: 280px;
+    width: 77%;
+    text-align: justify;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 #clear {
@@ -44,7 +43,36 @@ body {
 }
 
 #footer {
-    background: #00BFFF;
+    border-top: 1px solid #00409c;
     width: 100%;
     height: 40px;
+}
+
+/* Навигация */
+#navigation ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#navigation ul li a:hover {
+    color: #ffa71e;
+}
+
+/* Контент */
+.first-p {
+    font-style: italic;
+}
+
+.red {
+    color: #ff0000;
+}
+
+#subscribe label {
+    font-weight: bold;
+}
+
+form .form-row{
+    margin-bottom: 15px;
 }
